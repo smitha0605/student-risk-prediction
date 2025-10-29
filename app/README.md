@@ -198,8 +198,3 @@ print(response.json())
 
 This project is for educational/hackathon purposes.
 
-## 🙏 Acknowledgments
-
-- Dataset: [Source if applicable]
-- Inspired by research on student retention
-- Built for [Hackathon Name]
