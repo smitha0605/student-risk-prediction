@@ -19,9 +19,7 @@ print("\n" + "="*70)
 print("MODEL TRAINING")
 print("="*70 + "\n")
 
-# ============================================
-# STEP 1: LOAD DATA
-# ============================================
+
 df = pd.read_csv("outputs/students_labeled.csv")
 print(f"📥 Loaded {len(df)} students")
 
@@ -34,9 +32,7 @@ if 'risk_label' not in df.columns:
 print(f"  ⚠️ At Risk: {df['risk_label'].sum()} students")
 print(f"  ✅ Not At Risk: {(df['risk_label']==0).sum()} students")
 
-# ============================================
-# STEP 2: PREPARE FEATURES
-# ============================================
+
 print("\n🔧 Preparing features...")
 
 # Remove columns we DON'T want the AI to use
